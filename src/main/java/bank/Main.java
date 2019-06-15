@@ -11,6 +11,12 @@ import java.net.URL;
 public class Main extends Application {
     private static String UI = "fxml/UI.fxml";
 
+    /**
+     *  set the scene and load UI.fxml
+     *
+     * @param primaryStage
+     * @throws Exception
+     */
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(findResource(UI));
@@ -20,7 +26,6 @@ public class Main extends Application {
         primaryStage.setResizable(false);
         primaryStage.setScene(frame);
         primaryStage.centerOnScreen();
-        primaryStage.setHeight(410);
         primaryStage.show();
 
     }

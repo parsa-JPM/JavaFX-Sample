@@ -1,3 +1,28 @@
-#body{
-    -fx-background-color: rgba(0, 0, 0, 0.75);
+* {
+    -fx-teal: #009688;
+}
+
+.text-field {
+    -fx-border-color: -fx-teal;
+    -fx-text-fill: -fx-teal;
+    -fx-font-size: 15px;
+    -fx-border-radius: 3px;
+    -fx-border-width: 1.5px;
+}
+
+.button {
+    -fx-background-color: -fx-teal;
+    -fx-text-fill: white;
+}
+
+.combo-box {
+    -fx-border-color: -fx-teal;
+    -fx-text-fill: -fx-teal;
+    -fx-border-radius: 3px;
+    -fx-border-width: 1.5px;
+}
+
+.label{
+    -fx-text-fill: -fx-teal;
+    -fx-font-size: 25px;
 }
